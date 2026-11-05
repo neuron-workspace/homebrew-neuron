@@ -2,16 +2,16 @@
 cask "neuron" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.4.5"
-  sha256 arm:   "60b9d68a1ca2e07567e337721511f301300d22b69f1b408bbf16e046d860b152",
-         intel: "4f2ab74dd12c4e0227e6bcb6257d1b6a380371b1757a012230f75244d4c161a3"
+  version "0.5.0"
+  sha256 arm:   "512eff39d4ddbfea14ebb5b3590871c7f600fdfac597935fd0e294b2ec46e5c1",
+         intel: "5aeebe207b0598a44034664c8a2f4ce3acdf8ea8373ec80a4face30bc0f0d745"
 
   url "https://github.com/neuron-workspace/Neuron/releases/download/v#{version}/Neuron-#{version}-mac-#{arch}.dmg",
       verified: "github.com/neuron-workspace/Neuron/"
 
   name "Neuron"
   desc "Local-first Markdown and MDX knowledge workspace"
-  homepage "https://neuron-workspace.github.io/Neuron/"
+  homepage "https://neuron-workspace.github.io/"
 
   app "Neuron.app"
 
